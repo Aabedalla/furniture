@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Poppins", sans-serif !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+.topSection h1{
+    font-size: 55px;
+    font-weight: 700;
+    color: #333;
+}
