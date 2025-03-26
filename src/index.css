@@ -17,3 +17,11 @@ a{
     font-weight: 700;
     color: #333;
 }
+.modernF{
+    font-weight: 700;
+    color: #444444 !important;
+}
+
+h6{
+    font-weight: 500;
+}
