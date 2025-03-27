@@ -21,7 +21,34 @@ a{
     font-weight: 700;
     color: #444444 !important;
 }
+.About{
+    background-image: url('./assets/card1.jpg');
+}
 
 h6{
     font-weight: 500;
+}
+.Ab h1{
+    color: white !important;
+}
+.Ab p{
+    color: white;
+    text-align: center;
+}
+.ulLinks li a{
+    color: white ;
+}
+
+.ulLinks li a:hover{
+    color: #a6d457 ;
+}
+
+.ulLinks{
+    line-height: 2.5rem;
+}
+.logo{
+    text-align: center;
+    font-weight: 900;
+    font-size: 22px;
+    color: #a6d457;
 }

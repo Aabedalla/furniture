@@ -12,6 +12,7 @@ import mechanic from '../assets/mechanic.png'
 import paint from '../assets/paint.png'
 
 
+
 const cardImg = [
     { img: card1, add: "add to cart" , id: 1 , price: "200$" , title: "The finest luxury and royal sofa sets and professional "},
     { img: card2, add: "add to cart" , id: 2 , price: "120$" , title: "The finest types of luxurious and professional covers"},
@@ -63,7 +64,7 @@ function SectionOne(){
             </div>
         </section>
 
-       
+        
 
         </>
     )

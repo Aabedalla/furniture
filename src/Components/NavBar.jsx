@@ -19,7 +19,7 @@ function Nav() {
         <div className="flex justify-between items-center py-4">
           
           <div className="log px-3">
-            <img src={logo} alt="Logo" />
+            <span className="logo">Roaa Furniture</span>
           </div>
 
          
@@ -32,7 +32,7 @@ function Nav() {
 
           
           <ul
-            className={`md:flex items-center space-x-4 ${
+            className={`md:flex items-center mb-0 space-x-4 ${
               isOpen ? "block" : "hidden"
             } md:block absolute md:relative bg-[#58673e] md:bg-transparent w-full md:w-auto left-0 top-16 md:top-0 md:p-0`}
           >
