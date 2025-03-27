@@ -15,7 +15,7 @@ function Nav() {
 
   return (
     <section className="bg-[#58673e] text-white">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto ">
         <div className="flex justify-between items-center py-4">
           
           <div className="log px-3">

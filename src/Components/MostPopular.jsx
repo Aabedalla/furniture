@@ -9,14 +9,14 @@ function MostPopular(){
         <section>
             <div className="container">
             <h1 className="text-center pt-3 modernF">Most Popular</h1>
-                <div className="Popular1 flex">
+                <div className="Popular1 flex-wrap flex">
                    <div className='col-md-6'>
                         <div>
-                                <img src={pop1} className='my-5 w-[400px] m-5 float-right border-0 drop-shadow-xl rounded-lg'></img>
+                                <img src={pop1} className='my-5 float-right border-0 drop-shadow-xl rounded-lg'></img>
                             </div>
                         </div>
                     <div className='col-md-6'>
-                        <div className='popInfo my-5'>
+                        <div className='popInfo px-3 my-5'>
                             <p className='text-[#333] text-justify py-3'>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, 
                                 modi iste ut esse cupiditate numquam itaque. Itaque, 
@@ -30,10 +30,10 @@ function MostPopular(){
                     </div>
                 </div>
 
-                <div className="Popular1 flex">
+                <div className="Popular1 flex-wrap flex">
                    
                     <div className='col-md-6'>
-                        <div className='popInfo my-5'>
+                        <div className='popInfo px-3 my-5'>
                             <p className='text-[#333]  text-right py-3'>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, 
                                 modi iste ut esse cupiditate numquam itaque. Itaque, 
@@ -48,19 +48,19 @@ function MostPopular(){
 
                     <div className='col-md-6'>
                         <div>
-                                <img src={pop2} className='my-5 w-[400px] mx-5 float-left border-0 drop-shadow-xl rounded-lg'></img>
+                                <img src={pop2} className='my-5 float-left border-0 drop-shadow-xl rounded-lg'></img>
                             </div>
                     </div>
                 </div>
 
-                <div className="Popular1 flex">
+                <div className="Popular1 flex-wrap flex">
                    <div className='col-md-6'>
                         <div>
-                                <img src={pop3} className='my-5 w-[400px] m-5 float-right border-0 drop-shadow-xl rounded-lg'></img>
+                                <img src={pop3} className='my-5 float-right border-0 drop-shadow-xl rounded-lg'></img>
                             </div>
                         </div>
                     <div className='col-md-6'>
-                        <div className='popInfo my-5'>
+                        <div className='popInfo px-3 my-5'>
                             <p className='text-[#333] text-justify py-3'>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, 
                                 modi iste ut esse cupiditate numquam itaque. Itaque, 
